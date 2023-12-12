@@ -3,27 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.Shared", "Common\RabbitMQLearning.Shared\RabbitMQLearning.Shared.csproj", "{723CBD05-4766-4090-9E74-8A2A8AB55982}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorials", "Tutorials", "{1A07784E-3FE2-4C0D-979A-E22060C7CCDA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearing.HelloWorld.Receiver", "Tutorials\RabbitMQLearning.HelloWorld.Receiver\RabbitMQLearing.HelloWorld.Receiver.csproj", "{D1AA7CCA-6807-4400-9425-4B941D042525}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearing.HelloWorld.Sender", "Tutorials\RabbitMQLearning.HelloWorld.Sender\RabbitMQLearing.HelloWorld.Sender.csproj", "{65CC93E6-382D-4D39-852D-F2C2034F1CFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.WorkQueues.NewTask", "Tutorials\RabbitMQLearning.WorkQueues.NewTask\RabbitMQLearning.WorkQueues.NewTask.csproj", "{A4A04E2F-486F-4156-9627-AB480E264A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.WorkQueues.Worker", "Tutorials\RabbitMQLearning.WorkQueues.Worker\RabbitMQLearning.WorkQueues.Worker.csproj", "{27E4410B-17BD-441F-BCDC-16FE391751D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7E9F8D9A-2A79-499D-AF47-0E6B87B70DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.Shared", "Common\RabbitMQLearning.Shared\RabbitMQLearning.Shared.csproj", "{FF2AD82F-750D-4910-B683-4141C0393075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{723CBD05-4766-4090-9E74-8A2A8AB55982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{723CBD05-4766-4090-9E74-8A2A8AB55982}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{723CBD05-4766-4090-9E74-8A2A8AB55982}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{723CBD05-4766-4090-9E74-8A2A8AB55982}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D1AA7CCA-6807-4400-9425-4B941D042525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D1AA7CCA-6807-4400-9425-4B941D042525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1AA7CCA-6807-4400-9425-4B941D042525}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,9 +31,27 @@ Global
 		{65CC93E6-382D-4D39-852D-F2C2034F1CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65CC93E6-382D-4D39-852D-F2C2034F1CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65CC93E6-382D-4D39-852D-F2C2034F1CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A04E2F-486F-4156-9627-AB480E264A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A04E2F-486F-4156-9627-AB480E264A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A04E2F-486F-4156-9627-AB480E264A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A04E2F-486F-4156-9627-AB480E264A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E4410B-17BD-441F-BCDC-16FE391751D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E4410B-17BD-441F-BCDC-16FE391751D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E4410B-17BD-441F-BCDC-16FE391751D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E4410B-17BD-441F-BCDC-16FE391751D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2AD82F-750D-4910-B683-4141C0393075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2AD82F-750D-4910-B683-4141C0393075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2AD82F-750D-4910-B683-4141C0393075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2AD82F-750D-4910-B683-4141C0393075}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1AA7CCA-6807-4400-9425-4B941D042525} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
 		{65CC93E6-382D-4D39-852D-F2C2034F1CFC} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
+		{A4A04E2F-486F-4156-9627-AB480E264A34} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
+		{27E4410B-17BD-441F-BCDC-16FE391751D2} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
+		{FF2AD82F-750D-4910-B683-4141C0393075} = {7E9F8D9A-2A79-499D-AF47-0E6B87B70DDE}
 	EndGlobalSection
 EndGlobal
