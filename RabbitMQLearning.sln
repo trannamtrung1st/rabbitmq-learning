@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7E9F8D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.Shared", "Common\RabbitMQLearning.Shared\RabbitMQLearning.Shared.csproj", "{FF2AD82F-750D-4910-B683-4141C0393075}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.PubSub.EmitLog", "Tutorials\RabbitMQLearning.PubSub.EmitLog\RabbitMQLearning.PubSub.EmitLog.csproj", "{59006711-1ECF-4952-B6F2-F8DB78CA5904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.PubSub.ReceiveLogs", "Tutorials\RabbitMQLearning.PubSub.ReceiveLogs\RabbitMQLearning.PubSub.ReceiveLogs.csproj", "{8B5F59F4-1591-4C45-A884-CB37FEE38DBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{FF2AD82F-750D-4910-B683-4141C0393075}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF2AD82F-750D-4910-B683-4141C0393075}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF2AD82F-750D-4910-B683-4141C0393075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59006711-1ECF-4952-B6F2-F8DB78CA5904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59006711-1ECF-4952-B6F2-F8DB78CA5904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59006711-1ECF-4952-B6F2-F8DB78CA5904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59006711-1ECF-4952-B6F2-F8DB78CA5904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5F59F4-1591-4C45-A884-CB37FEE38DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5F59F4-1591-4C45-A884-CB37FEE38DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5F59F4-1591-4C45-A884-CB37FEE38DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5F59F4-1591-4C45-A884-CB37FEE38DBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +65,7 @@ Global
 		{A4A04E2F-486F-4156-9627-AB480E264A34} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
 		{27E4410B-17BD-441F-BCDC-16FE391751D2} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
 		{FF2AD82F-750D-4910-B683-4141C0393075} = {7E9F8D9A-2A79-499D-AF47-0E6B87B70DDE}
+		{59006711-1ECF-4952-B6F2-F8DB78CA5904} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
+		{8B5F59F4-1591-4C45-A884-CB37FEE38DBC} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
 	EndGlobalSection
 EndGlobal
