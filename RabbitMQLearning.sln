@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorials", "Tutorials", "{1A07784E-3FE2-4C0D-979A-E22060C7CCDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearing.HelloWorld.Receiver", "Tutorials\RabbitMQLearning.HelloWorld.Receiver\RabbitMQLearing.HelloWorld.Receiver.csproj", "{D1AA7CCA-6807-4400-9425-4B941D042525}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.HelloWorld.Receiver", "Tutorials\RabbitMQLearning.HelloWorld.Receiver\RabbitMQLearning.HelloWorld.Receiver.csproj", "{D1AA7CCA-6807-4400-9425-4B941D042525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearing.HelloWorld.Sender", "Tutorials\RabbitMQLearning.HelloWorld.Sender\RabbitMQLearing.HelloWorld.Sender.csproj", "{65CC93E6-382D-4D39-852D-F2C2034F1CFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.HelloWorld.Sender", "Tutorials\RabbitMQLearning.HelloWorld.Sender\RabbitMQLearning.HelloWorld.Sender.csproj", "{65CC93E6-382D-4D39-852D-F2C2034F1CFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.WorkQueues.NewTask", "Tutorials\RabbitMQLearning.WorkQueues.NewTask\RabbitMQLearning.WorkQueues.NewTask.csproj", "{A4A04E2F-486F-4156-9627-AB480E264A34}"
 EndProject
