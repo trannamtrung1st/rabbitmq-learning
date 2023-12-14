@@ -20,6 +20,6 @@ do
     var body = Encoding.UTF8.GetBytes(message);
     channel.BasicPublish(exchange: "direct_logs",
                          routingKey: color,
-                         basicProperties: null,
+                         basicProperties: properties,
                          body: body);
 } while (!string.IsNullOrEmpty(message));

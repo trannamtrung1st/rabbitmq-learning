@@ -18,6 +18,6 @@ do
     var body = Encoding.UTF8.GetBytes(message);
     channel.BasicPublish(exchange: "logs",
                          routingKey: string.Empty,
-                         basicProperties: null,
+                         basicProperties: properties,
                          body: body);
 } while (!string.IsNullOrEmpty(message));

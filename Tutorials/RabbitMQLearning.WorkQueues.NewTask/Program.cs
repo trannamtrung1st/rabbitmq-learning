@@ -22,7 +22,7 @@ do
     var body = Encoding.UTF8.GetBytes(message);
     channel.BasicPublish(exchange: string.Empty,
                          routingKey: "task_queue",
-                         basicProperties: null,
+                         basicProperties: properties,
                          body: body);
     Console.WriteLine($" [x] Sent {message}");
 
