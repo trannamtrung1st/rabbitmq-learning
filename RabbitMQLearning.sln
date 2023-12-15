@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.RPC.RPCCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.RPC.Shared", "Tutorials\RabbitMQLearning.RPC.Shared\RabbitMQLearning.RPC.Shared.csproj", "{AE66C501-35AE-4930-B40A-34D7FE539201}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.PublisherConfirms.Publisher", "Tutorials\RabbitMQLearning.PublisherConfirms.Publisher\RabbitMQLearning.PublisherConfirms.Publisher.csproj", "{B4638272-6A6A-4388-BC73-72682B30CB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQLearning.PublisherConfirms.Receiver", "Tutorials\RabbitMQLearning.PublisherConfirms.Receiver\RabbitMQLearning.PublisherConfirms.Receiver.csproj", "{BA594F6A-2182-42CF-AB15-9E03C1F150EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,14 @@ Global
 		{AE66C501-35AE-4930-B40A-34D7FE539201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE66C501-35AE-4930-B40A-34D7FE539201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE66C501-35AE-4930-B40A-34D7FE539201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4638272-6A6A-4388-BC73-72682B30CB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4638272-6A6A-4388-BC73-72682B30CB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4638272-6A6A-4388-BC73-72682B30CB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4638272-6A6A-4388-BC73-72682B30CB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA594F6A-2182-42CF-AB15-9E03C1F150EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA594F6A-2182-42CF-AB15-9E03C1F150EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA594F6A-2182-42CF-AB15-9E03C1F150EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA594F6A-2182-42CF-AB15-9E03C1F150EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,5 +128,7 @@ Global
 		{320D0CBE-C30A-40E7-B198-B81DDF53EB8B} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
 		{D8587347-04EF-492D-BD27-7C535230AB1E} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
 		{AE66C501-35AE-4930-B40A-34D7FE539201} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
+		{B4638272-6A6A-4388-BC73-72682B30CB03} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
+		{BA594F6A-2182-42CF-AB15-9E03C1F150EE} = {1A07784E-3FE2-4C0D-979A-E22060C7CCDA}
 	EndGlobalSection
 EndGlobal
